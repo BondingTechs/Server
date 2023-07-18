@@ -1,8 +1,8 @@
 import { BaseService } from '@cool-midway/core';
 import { Repository } from 'typeorm';
-import { NewsArticleCollectionEntity } from '../../news/entity/articleCollection';
-import { TipAppService } from '../../award/service/app/tips';
 import { AwardTipsCollectionEntity } from '../../award/entity/tips_collection';
+import { TipAppService } from '../../award/service/app/tips';
+import { NewsArticleCollectionEntity } from '../../news/entity/articleCollection';
 /**
  * 描述
  */
