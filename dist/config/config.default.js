@@ -51,8 +51,8 @@ exports.default = {
             // 上传模式 本地上传或云存储
             mode: file_1.MODETYPE.LOCAL,
             // 本地上传 文件地址前缀，当且仅当mode为LOCAL时生效
-            // domain: 'https://bondingtechs.com',
-            domain: 'http://127.0.0.1:8001',
+            domain: 'https://bondingtechs.com',
+            // domain: 'http://127.0.0.1:8001',
         },
     },
 };
