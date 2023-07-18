@@ -1,14 +1,14 @@
 import { BaseService } from '@cool-midway/core';
-import { Repository } from 'typeorm';
-import { BaseSysUserEntity } from '../../entity/sys/user';
-import { BaseSysUserRoleEntity } from '../../entity/sys/user_role';
-import { BaseSysDepartmentEntity } from '../../entity/sys/department';
 import { CacheManager } from '@midwayjs/cache';
 import { Context } from '@midwayjs/koa';
+import { Repository } from 'typeorm';
+import { BaseSysDepartmentEntity } from '../../entity/sys/department';
+import { BaseSysUserEntity } from '../../entity/sys/user';
+import { BaseSysUserRoleEntity } from '../../entity/sys/user_role';
 import { Utils } from '../../../../comm/utils';
 import { TipAppService } from '../../../award/service/app/tips';
-import { BaseAppAuthService } from './auth';
 import { BaseUserIdentityEntity } from '../../../base/entity/sys/user_identity';
+import { BaseAppAuthService } from './auth';
 /**
  * 系統用戶
  */
