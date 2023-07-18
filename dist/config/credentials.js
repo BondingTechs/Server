@@ -4,7 +4,7 @@ exports.googleMail = exports.twilio = void 0;
 exports.twilio = {
     // serviceSid: 'VA37ac49d0caa3e4c20f1e0ab02b46476a',
     accountSid: 'ACf5f58da6bc9b4cc4892d13fdcf82b3e9',
-    authToken: 'b9c4d93fc8207f182c3b4e5a3cf88789',
+    authToken: '4693b13358e5bb887ac760b4e71ff8bb',
     verifySid: 'VAf7f0f6acda0fb5244de1f2876adaba59',
 };
 exports.googleMail = {
