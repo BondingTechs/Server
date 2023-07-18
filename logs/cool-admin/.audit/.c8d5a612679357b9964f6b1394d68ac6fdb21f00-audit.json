@@ -1,0 +1,75 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/.audit/.c8d5a612679357b9964f6b1394d68ac6fdb21f00-audit.json",
+  "files": [
+    {
+      "date": 1675434948702,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-03",
+      "hash": "7e9a857c3e2ada0b26cd081e514dbd90"
+    },
+    {
+      "date": 1675440465812,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-04",
+      "hash": "10fcae5e25f6eacb29c01048abe401b7"
+    },
+    {
+      "date": 1675687498593,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-06",
+      "hash": "7f23d3668e8c92fa99b904a37576e9c9"
+    },
+    {
+      "date": 1675754607687,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-07",
+      "hash": "406419c9d3e90f5056b12bf4df6a0f1b"
+    },
+    {
+      "date": 1675825305069,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-08",
+      "hash": "f612f0c5a19b9dd076d3cd8e5fccf615"
+    },
+    {
+      "date": 1676009881971,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-10",
+      "hash": "08249fc064e95b60b471c1fc297c9d01"
+    },
+    {
+      "date": 1676145999592,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-12",
+      "hash": "1bb14cda79c1c1c685c92dd78c6d850e"
+    },
+    {
+      "date": 1676275304645,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-13",
+      "hash": "2f3b4e2e7e6511ef5f15a882bccb5245"
+    },
+    {
+      "date": 1676366662322,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-14",
+      "hash": "1bf0222100f052cf628dc30aeb6647be"
+    },
+    {
+      "date": 1676401852747,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-15",
+      "hash": "e4e0744260feef1f0f7be02a5c282f97"
+    },
+    {
+      "date": 1676606032548,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-17",
+      "hash": "fcf5ee30f4ab8cd852d96afc4fdd2ee7"
+    },
+    {
+      "date": 1677005949486,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-02-22",
+      "hash": "0e1d4b9ce22df655962b1b230dffcce7"
+    },
+    {
+      "date": 1678068438928,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/common-error.log.2023-03-06",
+      "hash": "b3cfd854ef0958cf1c13e687ce3621e6"
+    }
+  ],
+  "hashType": "md5"
+}

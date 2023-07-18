@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/kurou/project/bonding/server/logs/cool-admin/.audit/.c6a9c5e948bdc635e3e99652d5b6b75d8b68aa01-audit.json",
+  "files": [
+    {
+      "date": 1681618825634,
+      "name": "/Users/kurou/project/bonding/server/logs/cool-admin/midway-task.log.2023-04-16",
+      "hash": "260d0ab82dd601f703d66b690c966f1d"
+    }
+  ],
+  "hashType": "md5"
+}

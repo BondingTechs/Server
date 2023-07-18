@@ -1,0 +1,65 @@
+2023-02-14 17:28:49,337 ERROR 56492 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:18
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-02-14 17:28:49,612 ERROR 56492 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:18
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-02-14 20:22:06,590 ERROR 56492 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:18
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-02-14 20:38:24,680 ERROR 56492 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:18
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-02-14 20:38:24,908 ERROR 56492 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:18
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}

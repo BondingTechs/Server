@@ -1,0 +1,97 @@
+2023-02-04 00:07:46,175 INFO 44691 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-04 00:07:56,184 INFO 44691 [36m [cool:core] location clean [0m
+2023-02-04 00:08:07,831 INFO 44691 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-04 00:17:09,643 ERROR 44691 QueryFailedError: Field 'articleId' doesn't have a default value
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/template/bonding-renew/bonding-server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/template/bonding-renew/bonding-server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/template/bonding-renew/bonding-server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: 'INSERT INTO `news_article_category`(`id`, `createTime`, `updateTime`, `articleId`, `categoryId`) VALUES (DEFAULT, DEFAULT, DEFAULT, DEFAULT, ?)',
+  parameters: [ 33 ],
+  driverError: Error: Field 'articleId' doesn't have a default value
+      at Packet.asError (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_NO_DEFAULT_FOR_FIELD',
+    errno: 1364,
+    sqlState: 'HY000',
+    sqlMessage: "Field 'articleId' doesn't have a default value",
+    sql: 'INSERT INTO `news_article_category`(`id`, `createTime`, `updateTime`, `articleId`, `categoryId`) VALUES (DEFAULT, DEFAULT, DEFAULT, DEFAULT, 33)'
+  },
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlState: 'HY000',
+  sqlMessage: "Field 'articleId' doesn't have a default value",
+  sql: 'INSERT INTO `news_article_category`(`id`, `createTime`, `updateTime`, `articleId`, `categoryId`) VALUES (DEFAULT, DEFAULT, DEFAULT, DEFAULT, 33)'
+}
+2023-02-04 00:18:51,386 INFO 45064 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-04 00:19:01,391 INFO 45064 [36m [cool:core] location clean [0m
+2023-02-04 00:19:41,314 INFO 45064 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-04 00:19:41,398 ERROR 45064 QueryFailedError: Duplicate entry 'about-bonding-technology' for key 'IDX_c6bbfb15842493169f3e616fab'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/template/bonding-renew/bonding-server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/template/bonding-renew/bonding-server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/template/bonding-renew/bonding-server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: 'INSERT INTO `news_article`(`id`, `createTime`, `updateTime`, `createBy`, `updateBy`, `deleteBy`, `deleteTime`, `title`, `metaTitle`, `metaDescription`, `slug`, `content`, `contentPreview`, `excerpt`, `thumbnail`, `commentOpen`, `isTop`, `isHot`, `status`, `publishTime`, `type`, `videoUrl`, `authorAvatar`, `authorName`, `authorIntro`) VALUES (DEFAULT, DEFAULT, DEFAULT, ?, ?, DEFAULT, DEFAULT, ?, DEFAULT, DEFAULT, ?, ?, ?, DEFAULT, ?, ?, ?, ?, ?, DEFAULT, ?, DEFAULT, ?, ?, ?)',
+  parameters: [
+    1,
+    1,
+    '『Bonding Tech』鍵結科技，鍵結你我',
+    'about-bonding-technology',
+    '<p style="text-align: center;"><img src="https://bondingtechs.com/public/uploads/20230202/a0506686-ec61-44d6-8067-e559a6633a57_粉專封面_20211107.JPG" alt="" data-href="" style="width: 50%;"></p><p><br></p><p>【Bonding Tech】是個以化學材料產業為出發點，架構出從上游到下游，屬於與材料有關的製造業資訊平台。</p><p>我們將會提供各種與化學材料相關的基礎原理知識、業界經驗常識、各類產品使用方式、常見問題之成因與解決辦法等資訊；相關產業包含化學原物料製造、塗料與材料製造及潮流科技之製造等。 </p><p>藉由提供各種產業知識與經驗的方式，讓業界朋友們提升各項技術能力，快速解決工作上各種疑難雜症，掌握產業趨勢新動向，加快研發速度，刺激產品創新，提升各項競爭力。</p><p><br></p><p style="text-align: center;"><img src="https://bondingtechs.com/public/uploads/20230202/865f94c1-7eaf-4b53-ac4b-0cdc5ad75fc7_鍵結LOGO04_工作區域 1.png" alt="" data-href="" style="width: 50%;"></p><p><br></p><p>【H:H】是我們的Logo，我們期許自己成為業界朋友們的「氫鍵」，讓各位用最短的距離，合作創造出最偉大的價值。</p>',
+    '<p>【Bonding Tech】是個以化學材料產業為出發點，架構出從上游到下游，屬於與材料有關的製造業資訊平台。</p><p>我們將會提供各種與化學材料相關的基礎原理知識、業界經驗常識、各類產品使用方式、常見問題之成因與解決辦法等資訊；相關產業包含化學原物料製造、塗料與材料製造及潮流科技之製造等。 </p><p>藉由提供各種產業知識與經驗的方式，讓業界朋友們提升各項技術能力，快速解決工作上各種疑難雜症，掌握產業趨勢新動向，加快研發速度，刺激產品創新，提升各項競爭力。</p>',
+    'https://bondingtechs.com/public/uploads/20230204/6a9ce49b-3812-4130-9ae6-2e66038aac84_312799044_1259154178202566_6586534058641091458_n.jpeg',
+    1,
+    1,
+    1,
+    9,
+    11,
+    'https://bondingtechs.com/public/uploads/20230204/c2f8ba44-798c-4231-8b98-93a781f568b3_CleanShot 2023-02-02 at 00.20.32.png',
+    'BondingTech',
+    '<p>網頁平台官方作者</p>'
+  ],
+  driverError: Error: Duplicate entry 'about-bonding-technology' for key 'IDX_c6bbfb15842493169f3e616fab'
+      at Packet.asError (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlState: '23000',
+    sqlMessage: "Duplicate entry 'about-bonding-technology' for key 'IDX_c6bbfb15842493169f3e616fab'",
+    sql: 'INSERT INTO `news_article`(`id`, `createTime`, `updateTime`, `createBy`, `updateBy`, `deleteBy`, `deleteTime`, `title`, `metaTitle`, `metaDescription`, `slug`, `content`, `contentPreview`, `excerpt`, `thumbnail`, `commentOpen`, `isTop`, `isHot`, `status`, `publishTime`, `type`, `videoUrl`, `authorAvatar`, `authorName`, `authorIntro`) VALUES (DEFAULT, DEFAULT, DEFAULT, 1, 1, DEFAULT, DEFAULT, \'『Bonding Tech』鍵結科技，鍵結你我\', DEFAULT, DEFAULT, \'about-bonding-technology\', \'<p style=\\"text-align: center;\\"><img src=\\"https://bondingtechs.com/public/uploads/20230202/a0506686-ec61-44d6-8067-e559a6633a57_粉專封面_20211107.JPG\\" alt=\\"\\" data-href=\\"\\" style=\\"width: 50%;\\"></p><p><br></p><p>【Bonding Tech】是個以化學材料產業為出發點，架構出從上游到下游，屬於與材料有關的製造業資訊平台。</p><p>我們將會提供各種與化學材料相關的基礎原理知識、業界經驗常識、各類產品使用方式、常見問題之成因與解決辦法等資訊；相關產業包含化學原物料製造、塗料與材料製造及潮流科技之製造等。 </p><p>藉由提供各種產業知識與經驗的方式，讓業界朋友們提升各項技術能力，快速解決工作上各種疑難雜症，掌握產業趨勢新動向，加快研發速度，刺激產品創新，提升各項競爭力。</p><p><br></p><p style=\\"text-align: center;\\"><img src=\\"https://bondingtechs.com/public/uploads/20230202/865f94c1-7eaf-4b53-ac4b-0cdc5ad75fc7_鍵結LOGO04_工作區域 1.png\\" alt=\\"\\" data-href=\\"\\" style=\\"width: 50%;\\"></p><p><br></p><p>【H:H】是我們的Logo，我們期許自己成為業界朋友們的「氫鍵」，讓各位用最短的距離，合作創造出最偉大的價值。</p>\', \'<p>【Bonding Tech】是個以化學材料產業為出發點，架構出從上游到下游，屬於與材料有關的製造業資訊平台。</p><p>我們將會提供各種與化學材料相關的基礎原理知識、業界經驗常識、各類產品使用方式、常見問題之成因與解決辦法等資訊；相關產業包含化學原物料製造、塗料與材料製造及潮流科技之製造等。 </p><p>藉由提供各種產業知識與經驗的方式，讓業界朋友們提升各項技術能力，快速解決工作上各種疑難雜症，掌握產業趨勢新動向，加快研發速度，刺激產品創新，提升各項競爭力。</p>\', DEFAULT, \'https://bondingtechs.com/public/uploads/20230204/6a9ce49b-3812-4130-9ae6-2e66038aac84_312799044_1259154178202566_6586534058641091458_n.jpeg\', 1, 1, 1, 9, DEFAULT, 11, DEFAULT, \'https://bondingtechs.com/public/uploads/20230204/c2f8ba44-798c-4231-8b98-93a781f568b3_CleanShot 2023-02-02 at 00.20.32.png\', \'BondingTech\', \'<p>網頁平台官方作者</p>\')'
+  },
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  sqlMessage: "Duplicate entry 'about-bonding-technology' for key 'IDX_c6bbfb15842493169f3e616fab'",
+  sql: 'INSERT INTO `news_article`(`id`, `createTime`, `updateTime`, `createBy`, `updateBy`, `deleteBy`, `deleteTime`, `title`, `metaTitle`, `metaDescription`, `slug`, `content`, `contentPreview`, `excerpt`, `thumbnail`, `commentOpen`, `isTop`, `isHot`, `status`, `publishTime`, `type`, `videoUrl`, `authorAvatar`, `authorName`, `authorIntro`) VALUES (DEFAULT, DEFAULT, DEFAULT, 1, 1, DEFAULT, DEFAULT, \'『Bonding Tech』鍵結科技，鍵結你我\', DEFAULT, DEFAULT, \'about-bonding-technology\', \'<p style=\\"text-align: center;\\"><img src=\\"https://bondingtechs.com/public/uploads/20230202/a0506686-ec61-44d6-8067-e559a6633a57_粉專封面_20211107.JPG\\" alt=\\"\\" data-href=\\"\\" style=\\"width: 50%;\\"></p><p><br></p><p>【Bonding Tech】是個以化學材料產業為出發點，架構出從上游到下游，屬於與材料有關的製造業資訊平台。</p><p>我們將會提供各種與化學材料相關的基礎原理知識、業界經驗常識、各類產品使用方式、常見問題之成因與解決辦法等資訊；相關產業包含化學原物料製造、塗料與材料製造及潮流科技之製造等。 </p><p>藉由提供各種產業知識與經驗的方式，讓業界朋友們提升各項技術能力，快速解決工作上各種疑難雜症，掌握產業趨勢新動向，加快研發速度，刺激產品創新，提升各項競爭力。</p><p><br></p><p style=\\"text-align: center;\\"><img src=\\"https://bondingtechs.com/public/uploads/20230202/865f94c1-7eaf-4b53-ac4b-0cdc5ad75fc7_鍵結LOGO04_工作區域 1.png\\" alt=\\"\\" data-href=\\"\\" style=\\"width: 50%;\\"></p><p><br></p><p>【H:H】是我們的Logo，我們期許自己成為業界朋友們的「氫鍵」，讓各位用最短的距離，合作創造出最偉大的價值。</p>\', \'<p>【Bonding Tech】是個以化學材料產業為出發點，架構出從上游到下游，屬於與材料有關的製造業資訊平台。</p><p>我們將會提供各種與化學材料相關的基礎原理知識、業界經驗常識、各類產品使用方式、常見問題之成因與解決辦法等資訊；相關產業包含化學原物料製造、塗料與材料製造及潮流科技之製造等。 </p><p>藉由提供各種產業知識與經驗的方式，讓業界朋友們提升各項技術能力，快速解決工作上各種疑難雜症，掌握產業趨勢新動向，加快研發速度，刺激產品創新，提升各項競爭力。</p>\', DEFAULT, \'https://bondingtechs.com/public/uploads/20230204/6a9ce49b-3812-4130-9ae6-2e66038aac84_312799044_1259154178202566_6586534058641091458_n.jpeg\', 1, 1, 1, 9, DEFAULT, 11, DEFAULT, \'https://bondingtechs.com/public/uploads/20230204/c2f8ba44-798c-4231-8b98-93a781f568b3_CleanShot 2023-02-02 at 00.20.32.png\', \'BondingTech\', \'<p>網頁平台官方作者</p>\')'
+}
+2023-02-04 00:25:45,107 INFO 45195 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-04 00:25:55,113 INFO 45195 [36m [cool:core] location clean [0m
+2023-02-04 00:26:07,455 INFO 45195 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public

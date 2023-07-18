@@ -1,0 +1,3 @@
+2023-03-06 10:07:19,348 INFO 6791 [36m [cool:core] midwayjs cool core func handler [0m
+2023-03-06 10:07:29,357 INFO 6791 [36m [cool:core] location clean [0m
+2023-03-06 10:08:40,210 INFO 6791 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public

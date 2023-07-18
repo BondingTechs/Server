@@ -1,0 +1,50 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/.audit/.e66dd75a51ddcda6a52c4350c411c1a199275a9a-audit.json",
+  "files": [
+    {
+      "date": 1688272090892,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-02",
+      "hash": "3ba4ed0034a6bf75c52eded2b8dd1cf1"
+    },
+    {
+      "date": 1688378264422,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-03",
+      "hash": "446613e463a09794043e6e3dcf328c19"
+    },
+    {
+      "date": 1689249549628,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-13",
+      "hash": "dc2ed042fabbf7aa898ab25f99420b92"
+    },
+    {
+      "date": 1689271562971,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-14",
+      "hash": "579f5854a5d5ebd9ae3bc74756f7b39d"
+    },
+    {
+      "date": 1689404411606,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-15",
+      "hash": "fd7cdbfdbea144212031920d86537ac7"
+    },
+    {
+      "date": 1689496987209,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-16",
+      "hash": "27a043f0ba1d79c171f83399ed375a91"
+    },
+    {
+      "date": 1689523708152,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-17",
+      "hash": "29c521ed733b88f3b7fbe352e1ab19a5"
+    },
+    {
+      "date": 1689617185602,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/common-error.log.2023-07-18",
+      "hash": "717c33671189c9521ac100216b236817"
+    }
+  ],
+  "hashType": "md5"
+}

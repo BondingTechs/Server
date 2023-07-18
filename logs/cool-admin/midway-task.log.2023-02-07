@@ -1,0 +1,4 @@
+2023-02-07 02:11:22,658 INFO 60871 [LocalTask][0237ac74-5836-4c4f-8fc5-906eb8e406ce][BaseLogSchedule:exec] local task start.
+2023-02-07 02:11:22,669 INFO 60871 [LocalTask][0237ac74-5836-4c4f-8fc5-906eb8e406ce][BaseLogSchedule:exec] 清除日志定时任务开始执行
+2023-02-07 02:11:22,678 INFO 60871 [LocalTask][0237ac74-5836-4c4f-8fc5-906eb8e406ce][BaseLogSchedule:exec] 清除日志定时任务结束，耗时:9ms
+2023-02-07 02:11:22,679 INFO 60871 [LocalTask][0237ac74-5836-4c4f-8fc5-906eb8e406ce][BaseLogSchedule:exec] local task end.

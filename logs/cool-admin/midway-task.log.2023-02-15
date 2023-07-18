@@ -1,0 +1,4 @@
+2023-02-15 02:16:58,218 INFO 56492 [LocalTask][0ce0d2a9-1980-4dce-a7db-6fb2a6e28477][BaseLogSchedule:exec] local task start.
+2023-02-15 02:16:58,276 INFO 56492 [LocalTask][0ce0d2a9-1980-4dce-a7db-6fb2a6e28477][BaseLogSchedule:exec] 清除日志定时任务开始执行
+2023-02-15 02:16:58,838 INFO 56492 [LocalTask][0ce0d2a9-1980-4dce-a7db-6fb2a6e28477][BaseLogSchedule:exec] 清除日志定时任务结束，耗时:561ms
+2023-02-15 02:16:58,839 INFO 56492 [LocalTask][0ce0d2a9-1980-4dce-a7db-6fb2a6e28477][BaseLogSchedule:exec] local task end.

@@ -1,0 +1,4 @@
+2023-02-04 00:00:00,052 INFO 43416 [LocalTask][ff4eaf1c-3b23-48f7-ad6c-8b6052235289][BaseLogSchedule:exec] local task start.
+2023-02-04 00:00:00,069 INFO 43416 [LocalTask][ff4eaf1c-3b23-48f7-ad6c-8b6052235289][BaseLogSchedule:exec] 清除日志定时任务开始执行
+2023-02-04 00:00:00,103 INFO 43416 [LocalTask][ff4eaf1c-3b23-48f7-ad6c-8b6052235289][BaseLogSchedule:exec] 清除日志定时任务结束，耗时:33ms
+2023-02-04 00:00:00,103 INFO 43416 [LocalTask][ff4eaf1c-3b23-48f7-ad6c-8b6052235289][BaseLogSchedule:exec] local task end.

@@ -1,0 +1,45 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/.audit/.ed79625bf81a0a18d3f04501c0a3f4f06de70b31-audit.json",
+  "files": [
+    {
+      "date": 1675434948704,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/midway-app.log.2023-02-03",
+      "hash": "a283420f693c96b8b1f295f9034c0fc6"
+    },
+    {
+      "date": 1675440465815,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/midway-app.log.2023-02-04",
+      "hash": "ca228d0f8c4ba04c6a682916aa277b2c"
+    },
+    {
+      "date": 1675687498596,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/midway-app.log.2023-02-06",
+      "hash": "728d93c04297ef1b3992ef7834e08611"
+    },
+    {
+      "date": 1675754607690,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/midway-app.log.2023-02-07",
+      "hash": "239fed7a94d9cdcac0fde92e2f0c5657"
+    },
+    {
+      "date": 1676275162406,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/midway-app.log.2023-02-13",
+      "hash": "e4d3adc846c6a9652d06da382bd79267"
+    },
+    {
+      "date": 1676366662324,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/midway-app.log.2023-02-14",
+      "hash": "b1d078196d3da3933c97d010d8278817"
+    },
+    {
+      "date": 1678068438931,
+      "name": "/Users/kurou/template/bonding-renew/bonding-server/logs/cool-admin/midway-app.log.2023-03-06",
+      "hash": "0fd17fe7e518557ee58ff8be55381e7a"
+    }
+  ],
+  "hashType": "md5"
+}

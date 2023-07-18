@@ -1,0 +1,737 @@
+2023-07-18 02:06:25,596 ERROR 15203 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 11:47:30,512 ERROR 15203 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 13:56:41,896 ERROR 15203 CoolCommException: 無法送出驗證信，請聯絡管理員
+    at /Users/kurou/project/bonding-old2/server/src/modules/base/service/app/auth.ts:363:15
+    at Promise_then_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:779:43)
+    at Promise_done_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:861:26)
+    at Rejected_then [as then] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1323:23)
+    at Rejected_dispatch [as dispatch] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1311:23)
+    at Pending_become_eachMessage_task (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1369:30)
+    at RawTask.call (/Users/kurou/project/bonding-old2/server/node_modules/asap/asap.js:40:19)
+    at flush (/Users/kurou/project/bonding-old2/server/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 1001
+}
+2023-07-18 14:09:56,719 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:10:38,191 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:10:48,607 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:10:55,449 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:11:19,683 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:15:28,773 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:19:33,726 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:21:52,268 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:22:42,931 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:23:07,736 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:23:56,692 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:24:03,724 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:25:14,310 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:25:52,543 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:26:51,266 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:26:55,455 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:27:03,078 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:27:52,696 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:28:07,703 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:28:12,516 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:28:49,650 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:28:59,970 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:29:26,005 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:30:57,490 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:33:16,607 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:35:23,027 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:40:06,414 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:40:20,093 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:41:24,028 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:42:07,113 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:43:22,342 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:43:35,920 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:44:01,262 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:44:25,359 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:45:29,390 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:46:40,799 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:46:58,310 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:48:26,939 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:49:47,885 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:49:50,605 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:50:11,752 ERROR 24633 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 14:54:00,516 ERROR 26096 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:54:13,510 ERROR 26096 CoolCommException: 與目前的號碼相同
+    at BaseAppAuthService.captcha (/Users/kurou/project/bonding-old2/server/src/modules/base/service/app/auth.ts:339:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppAuthController.captcha (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/app/auth.ts:56:20)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:47:13
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1001
+}
+2023-07-18 14:56:16,797 ERROR 26096 CoolCommException: 無法送出驗證信，請聯絡管理員
+    at /Users/kurou/project/bonding-old2/server/src/modules/base/service/app/auth.ts:363:15
+    at Promise_then_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:779:43)
+    at Promise_done_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:861:26)
+    at Rejected_then [as then] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1323:23)
+    at Rejected_dispatch [as dispatch] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1311:23)
+    at Pending_become_eachMessage_task (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1369:30)
+    at RawTask.call (/Users/kurou/project/bonding-old2/server/node_modules/asap/asap.js:40:19)
+    at flush (/Users/kurou/project/bonding-old2/server/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 1001
+}
+2023-07-18 14:56:55,605 ERROR 26211 CoolCommException: 無法送出驗證信，請聯絡管理員
+    at /Users/kurou/project/bonding-old2/server/src/modules/base/service/app/auth.ts:364:15
+    at Promise_then_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:779:43)
+    at Promise_done_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:861:26)
+    at Rejected_then [as then] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1323:23)
+    at Rejected_dispatch [as dispatch] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1311:23)
+    at Pending_become_eachMessage_task (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1369:30)
+    at RawTask.call (/Users/kurou/project/bonding-old2/server/node_modules/asap/asap.js:40:19)
+    at flush (/Users/kurou/project/bonding-old2/server/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 1001
+}
+2023-07-18 14:57:35,737 ERROR 26211 CoolCommException: 無法送出驗證信，請聯絡管理員
+    at /Users/kurou/project/bonding-old2/server/src/modules/base/service/app/auth.ts:364:15
+    at Promise_then_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:779:43)
+    at Promise_done_rejected (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:861:26)
+    at Rejected_then [as then] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1323:23)
+    at Rejected_dispatch [as dispatch] (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1311:23)
+    at Pending_become_eachMessage_task (/Users/kurou/project/bonding-old2/server/node_modules/q/q.js:1369:30)
+    at RawTask.call (/Users/kurou/project/bonding-old2/server/node_modules/asap/asap.js:40:19)
+    at flush (/Users/kurou/project/bonding-old2/server/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 1001
+}
+2023-07-18 14:59:31,016 ERROR 26211 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 14:59:53,885 ERROR 26211 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 15:00:42,811 ERROR 26211 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 15:01:18,767 ERROR 26211 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-18 15:01:29,676 ERROR 26211 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 15:01:35,306 ERROR 26211 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 15:02:06,538 ERROR 26211 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-18 15:03:13,608 ERROR 26415 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:93:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}

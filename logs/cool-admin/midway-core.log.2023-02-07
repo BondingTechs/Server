@@ -1,0 +1,162 @@
+2023-02-07 15:23:28,160 INFO 64604 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-07 15:23:38,168 INFO 64604 [36m [cool:core] location clean [0m
+2023-02-07 15:23:46,469 INFO 64604 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-07 15:30:36,174 ERROR 64604 CoolCommException: task插件未启用或redis配置错误或redis版本过低(>=6.x)
+    at /Users/kurou/template/bonding-renew/bonding-server/src/modules/task/middleware/task.ts:23:17
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/middlewareService.js:93:48)
+    at composeFn (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/middlewareService.js:81:20)
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-compose/index.js:42:32)
+    at /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/koa/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-compose/index.js:42:32)
+    at /Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/koa/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/middlewareService.js:93:48)
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/koa/node_modules/@koa/router/lib/router.js:399:32) {
+  status: 1001
+}
+2023-02-07 15:30:38,334 ERROR 64604 CoolCommException: task插件未启用或redis配置错误或redis版本过低(>=6.x)
+    at /Users/kurou/template/bonding-renew/bonding-server/src/modules/task/middleware/task.ts:23:17
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/middlewareService.js:93:48)
+    at composeFn (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/middlewareService.js:81:20)
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-compose/index.js:42:32)
+    at /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/koa/node_modules/@koa/router/lib/router.js:425:16
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-compose/index.js:42:32)
+    at /Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/koa/node_modules/@koa/router/lib/router.js:430:31)
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/middlewareService.js:93:48)
+    at dispatch (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/koa/node_modules/@koa/router/lib/router.js:399:32) {
+  status: 1001
+}
+2023-02-07 15:31:12,801 INFO 65000 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-07 15:31:15,004 INFO 65000 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-07 15:31:22,808 INFO 65000 [36m [cool:core] location clean [0m
+2023-02-07 15:54:59,099 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-02-07 15:55:27,129 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-02-07 15:55:33,360 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-02-07 15:56:54,383 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-02-07 16:12:52,944 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-02-07 16:15:22,365 ERROR 65000 CoolValidateException: 內容不能為空
+    at NewsCommentApiService.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/service/app/comment.ts:165:35)
+    at NewsCommentApiController.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/controller/app/comment.ts:35:50)
+    at NewsCommentApiController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:53)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1002
+}
+2023-02-07 16:15:51,813 ERROR 65000 CoolValidateException: 內容不能為空
+    at NewsCommentApiService.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/service/app/comment.ts:165:35)
+    at NewsCommentApiController.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/controller/app/comment.ts:35:50)
+    at NewsCommentApiController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:53)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1002
+}
+2023-02-07 16:15:58,612 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-02-07 16:19:37,721 ERROR 65000 CoolValidateException: 內容不能為空
+    at NewsCommentApiService.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/service/app/comment.ts:165:35)
+    at NewsCommentApiController.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/controller/app/comment.ts:35:50)
+    at NewsCommentApiController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:53)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1002
+}
+2023-02-07 16:19:38,787 ERROR 65000 CoolValidateException: 內容不能為空
+    at NewsCommentApiService.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/service/app/comment.ts:165:35)
+    at NewsCommentApiController.create (/Users/kurou/template/bonding-renew/bonding-server/src/modules/news/controller/app/comment.ts:35:50)
+    at NewsCommentApiController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:53)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1002
+}

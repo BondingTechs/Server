@@ -1,0 +1,2160 @@
+2023-07-13 19:59:11,184 INFO 11924 [36m [cool:core] midwayjs cool core func handler [0m
+2023-07-13 19:59:16,515 INFO 11924 [midway:static] starting static serve /public -> /Users/kurou/project/bonding-old2/server/public
+2023-07-13 19:59:16,516 INFO 11924 [midway:static] starting static serve /public -> /Users/kurou/project/bonding-old2/server/public
+2023-07-13 19:59:16,574 INFO 11924 [midway:static] starting static serve /public -> /Users/kurou/project/bonding-old2/server/public
+2023-07-13 19:59:21,193 INFO 11924 [36m [cool:core] location clean [0m
+2023-07-13 20:01:23,722 ERROR 11924 NotFoundError: /api/api Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:01:23,731 ERROR 11924 NotFoundError: /apple-touch-icon-precomposed.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:01:23,739 ERROR 11924 NotFoundError: /apple-touch-icon.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:01:34,850 ERROR 11924 NotFoundError: /api/api Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:01:34,857 ERROR 11924 NotFoundError: /apple-touch-icon-precomposed.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:01:34,864 ERROR 11924 NotFoundError: /apple-touch-icon.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:01:37,463 ERROR 11924 NotFoundError: /api/api/auth/login Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:39:63 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:01:59,927 ERROR 11924 NotFoundError: /api/api/auth/login Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:39:63 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:00,681 ERROR 11924 NotFoundError: /api/api/auth/login Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:39:63 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:03,092 ERROR 11924 NotFoundError: /app Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:03,100 ERROR 11924 NotFoundError: /apple-touch-icon-precomposed.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:03,105 ERROR 11924 NotFoundError: /apple-touch-icon.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:05,307 ERROR 11924 CoolCommException: 該手機號碼尚未註冊
+    at BaseAppAuthService.login (/Users/kurou/project/bonding-old2/server/src/modules/base/service/app/auth.ts:97:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppAuthController.login (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/app/auth.ts:26:20)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1001
+}
+2023-07-13 20:02:14,242 ERROR 11924 NotFoundError: /app/news/article/page Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:23,100 ERROR 11924 NotFoundError: /app Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:23,106 ERROR 11924 NotFoundError: /apple-touch-icon-precomposed.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:23,114 ERROR 11924 NotFoundError: /apple-touch-icon.png Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:55,217 ERROR 11924 NotFoundError: /app/news/article/page Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:02:55,816 ERROR 11924 NotFoundError: /app/news/article/page Not Found
+    at notFound (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/koa/dist/framework.js:72:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5)
+    at async session (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/session/dist/middleware/session.js:137:17)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/koa-static-cache/index.js:41:56 {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2023-07-13 20:03:12,194 ERROR 11924 QueryFailedError: Unknown column 'publishDate' in 'order clause'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.slug,\n' +
+    '            a.title,\n' +
+    '            a.thumbnail,\n' +
+    '            a.commentOpen,\n' +
+    '            a.publishTime,\n' +
+    '            a.authorName as author,\n' +
+    "            (CASE WHEN LENGTH(a.excerpt) > 0 THEN a.excerpt ELSE LEFT(REGEXP_REPLACE(contentPreview, '<[^>]+>', ''), 80) END) AS excerpt,\n" +
+    '\n' +
+    '            GROUP_CONCAT(DISTINCT c.name) As categories,\n' +
+    '            COUNT(DISTINCT(e.id)) as views,\n' +
+    '            COUNT(DISTINCT(f.id)) as likes,\n' +
+    '            COUNT(DISTINCT(g.id)) as collections\n' +
+    '        FROM\n' +
+    '            news_article a\n' +
+    '            LEFT JOIN news_article_category b ON a.id = b.articleId\n' +
+    '            LEFT JOIN industry_category c ON b.categoryId = c.id\n' +
+    '            LEFT JOIN news_article_view e ON a.id = e.articleId\n' +
+    '            LEFT JOIN news_article_like f ON a.id = f.articleId\n' +
+    '            LEFT JOIN news_article_collection g ON a.id = g.articleId\n' +
+    "        WHERE a.status = '9'\n" +
+    '            \n' +
+    '            AND a.type = (?)\n' +
+    '            \n' +
+    '            \n' +
+    '            \n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `publishDate` asc LIMIT ?,? ',
+  parameters: [ 'text', 0, 15 ],
+  driverError: Error: Unknown column 'publishDate' in 'order clause'
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'publishDate' in 'order clause'",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.slug,\n' +
+      '            a.title,\n' +
+      '            a.thumbnail,\n' +
+      '            a.commentOpen,\n' +
+      '            a.publishTime,\n' +
+      '            a.authorName as author,\n' +
+      "            (CASE WHEN LENGTH(a.excerpt) > 0 THEN a.excerpt ELSE LEFT(REGEXP_REPLACE(contentPreview, '<[^>]+>', ''), 80) END) AS excerpt,\n" +
+      '\n' +
+      '            GROUP_CONCAT(DISTINCT c.name) As categories,\n' +
+      '            COUNT(DISTINCT(e.id)) as views,\n' +
+      '            COUNT(DISTINCT(f.id)) as likes,\n' +
+      '            COUNT(DISTINCT(g.id)) as collections\n' +
+      '        FROM\n' +
+      '            news_article a\n' +
+      '            LEFT JOIN news_article_category b ON a.id = b.articleId\n' +
+      '            LEFT JOIN industry_category c ON b.categoryId = c.id\n' +
+      '            LEFT JOIN news_article_view e ON a.id = e.articleId\n' +
+      '            LEFT JOIN news_article_like f ON a.id = f.articleId\n' +
+      '            LEFT JOIN news_article_collection g ON a.id = g.articleId\n' +
+      "        WHERE a.status = '9'\n" +
+      '            \n' +
+      "            AND a.type = ('text')\n" +
+      '            \n' +
+      '            \n' +
+      '            \n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `publishDate` asc LIMIT 0,15 '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'publishDate' in 'order clause'",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.slug,\n' +
+    '            a.title,\n' +
+    '            a.thumbnail,\n' +
+    '            a.commentOpen,\n' +
+    '            a.publishTime,\n' +
+    '            a.authorName as author,\n' +
+    "            (CASE WHEN LENGTH(a.excerpt) > 0 THEN a.excerpt ELSE LEFT(REGEXP_REPLACE(contentPreview, '<[^>]+>', ''), 80) END) AS excerpt,\n" +
+    '\n' +
+    '            GROUP_CONCAT(DISTINCT c.name) As categories,\n' +
+    '            COUNT(DISTINCT(e.id)) as views,\n' +
+    '            COUNT(DISTINCT(f.id)) as likes,\n' +
+    '            COUNT(DISTINCT(g.id)) as collections\n' +
+    '        FROM\n' +
+    '            news_article a\n' +
+    '            LEFT JOIN news_article_category b ON a.id = b.articleId\n' +
+    '            LEFT JOIN industry_category c ON b.categoryId = c.id\n' +
+    '            LEFT JOIN news_article_view e ON a.id = e.articleId\n' +
+    '            LEFT JOIN news_article_like f ON a.id = f.articleId\n' +
+    '            LEFT JOIN news_article_collection g ON a.id = g.articleId\n' +
+    "        WHERE a.status = '9'\n" +
+    '            \n' +
+    "            AND a.type = ('text')\n" +
+    '            \n' +
+    '            \n' +
+    '            \n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `publishDate` asc LIMIT 0,15 '
+}
+2023-07-13 21:24:19,276 INFO 14594 [36m [cool:core] midwayjs cool core func handler [0m
+2023-07-13 21:24:27,438 INFO 14594 [midway:static] starting static serve /public -> /Users/kurou/project/bonding-old2/server/public
+2023-07-13 21:24:29,285 INFO 14594 [36m [cool:core] location clean [0m
+2023-07-13 21:38:59,785 ERROR 14594 QueryFailedError: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_WRONG_FIELD_WITH_GROUP',
+    errno: 1055,
+    sqlState: '42000',
+    sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = 27\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_WRONG_FIELD_WITH_GROUP',
+  errno: 1055,
+  sqlState: '42000',
+  sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 21:39:00,681 ERROR 14594 TypeError: Cannot read properties of undefined (reading 'isPreview')
+    at AppNewsArticleService.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/service/app/article.ts:108:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NewsArticleController.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/controller/app/article.ts:51:20)
+    at async NewsArticleController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+2023-07-13 21:39:00,703 ERROR 14594 QueryFailedError: Unknown column 'undefined' in 'where clause'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Unknown column 'undefined' in 'where clause'
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = undefined\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 21:39:06,247 ERROR 14594 CoolValidateException: 手機或密碼不正確
+    at BaseAppAuthService.login (/Users/kurou/project/bonding-old2/server/src/modules/base/service/app/auth.ts:94:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppAuthController.login (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/app/auth.ts:26:20)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1002
+}
+2023-07-13 21:40:36,998 ERROR 14594 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/project/bonding-old2/server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-07-13 21:40:41,722 ERROR 14594 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/project/bonding-old2/server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-07-13 21:40:45,355 ERROR 14594 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/project/bonding-old2/server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-07-13 21:40:49,468 ERROR 14594 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/project/bonding-old2/server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-07-13 21:40:52,992 ERROR 14594 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/project/bonding-old2/server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/project/bonding-old2/server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-07-13 21:42:10,539 INFO 15141 [36m [cool:core] midwayjs cool core func handler [0m
+2023-07-13 21:42:22,361 INFO 15154 [36m [cool:core] midwayjs cool core func handler [0m
+2023-07-13 21:42:32,366 INFO 15154 [36m [cool:core] location clean [0m
+2023-07-13 21:42:40,572 INFO 15173 [36m [cool:core] midwayjs cool core func handler [0m
+2023-07-13 21:42:42,284 INFO 15173 [midway:static] starting static serve /public -> /Users/kurou/project/bonding-old2/server/public
+2023-07-13 21:42:42,351 ERROR 15173 QueryFailedError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]
+    )}
+        GR' at line 27
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    "            concat(a.firstName, ' ', a.lastName) As name,\n" +
+    '            a.username,\n' +
+    '            a.avatar,\n' +
+    '            a.email,\n' +
+    '            a.remark,\n' +
+    '            a.createTime,\n' +
+    '            a.updateTime,\n' +
+    '            a.phone,\n' +
+    '            a.departmentId,\n' +
+    '            a.status,\n' +
+    '            a.identityStatus,\n' +
+    '            a.emailStatus,\n' +
+    '            GROUP_CONCAT(c.name) AS roleName,\n' +
+    '            d.name as departmentName\n' +
+    '        FROM\n' +
+    '            base_sys_user a\n' +
+    '            LEFT JOIN base_sys_user_role b ON a.id = b.userId\n' +
+    '            LEFT JOIN base_sys_role c ON b.roleId = c.id\n' +
+    '            LEFT JOIN base_sys_department d ON a.departmentId = d.id\n' +
+    '            LEFT JOIN base_sys_user_identity e ON a.id = e.userId\n' +
+    '        WHERE 1 = 1\n' +
+    '            \n' +
+    '            \n' +
+    '            \n' +
+    '      [!_.isEmpty(permsDepartmentArr) ? permsDepartmentArr : [null]]\n' +
+    '    )}\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 20 ],
+  driverError: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]
+      )}
+          GR' at line 27
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n" +
+      '    )}\n' +
+      "        GR' at line 27",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      "            concat(a.firstName, ' ', a.lastName) As name,\n" +
+      '            a.username,\n' +
+      '            a.avatar,\n' +
+      '            a.email,\n' +
+      '            a.remark,\n' +
+      '            a.createTime,\n' +
+      '            a.updateTime,\n' +
+      '            a.phone,\n' +
+      '            a.departmentId,\n' +
+      '            a.status,\n' +
+      '            a.identityStatus,\n' +
+      '            a.emailStatus,\n' +
+      '            GROUP_CONCAT(c.name) AS roleName,\n' +
+      '            d.name as departmentName\n' +
+      '        FROM\n' +
+      '            base_sys_user a\n' +
+      '            LEFT JOIN base_sys_user_role b ON a.id = b.userId\n' +
+      '            LEFT JOIN base_sys_role c ON b.roleId = c.id\n' +
+      '            LEFT JOIN base_sys_department d ON a.departmentId = d.id\n' +
+      '            LEFT JOIN base_sys_user_identity e ON a.id = e.userId\n' +
+      '        WHERE 1 = 1\n' +
+      '            \n' +
+      '            \n' +
+      '            \n' +
+      '      [!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n' +
+      '    )}\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 20,? '
+  },
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n" +
+    '    )}\n' +
+    "        GR' at line 27",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    "            concat(a.firstName, ' ', a.lastName) As name,\n" +
+    '            a.username,\n' +
+    '            a.avatar,\n' +
+    '            a.email,\n' +
+    '            a.remark,\n' +
+    '            a.createTime,\n' +
+    '            a.updateTime,\n' +
+    '            a.phone,\n' +
+    '            a.departmentId,\n' +
+    '            a.status,\n' +
+    '            a.identityStatus,\n' +
+    '            a.emailStatus,\n' +
+    '            GROUP_CONCAT(c.name) AS roleName,\n' +
+    '            d.name as departmentName\n' +
+    '        FROM\n' +
+    '            base_sys_user a\n' +
+    '            LEFT JOIN base_sys_user_role b ON a.id = b.userId\n' +
+    '            LEFT JOIN base_sys_role c ON b.roleId = c.id\n' +
+    '            LEFT JOIN base_sys_department d ON a.departmentId = d.id\n' +
+    '            LEFT JOIN base_sys_user_identity e ON a.id = e.userId\n' +
+    '        WHERE 1 = 1\n' +
+    '            \n' +
+    '            \n' +
+    '            \n' +
+    '      [!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n' +
+    '    )}\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 20,? '
+}
+2023-07-13 21:42:50,581 INFO 15173 [36m [cool:core] location clean [0m
+2023-07-13 21:42:52,401 ERROR 15173 QueryFailedError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]
+    )}
+        GR' at line 27
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    "            concat(a.firstName, ' ', a.lastName) As name,\n" +
+    '            a.username,\n' +
+    '            a.avatar,\n' +
+    '            a.email,\n' +
+    '            a.remark,\n' +
+    '            a.createTime,\n' +
+    '            a.updateTime,\n' +
+    '            a.phone,\n' +
+    '            a.departmentId,\n' +
+    '            a.status,\n' +
+    '            a.identityStatus,\n' +
+    '            a.emailStatus,\n' +
+    '            GROUP_CONCAT(c.name) AS roleName,\n' +
+    '            d.name as departmentName\n' +
+    '        FROM\n' +
+    '            base_sys_user a\n' +
+    '            LEFT JOIN base_sys_user_role b ON a.id = b.userId\n' +
+    '            LEFT JOIN base_sys_role c ON b.roleId = c.id\n' +
+    '            LEFT JOIN base_sys_department d ON a.departmentId = d.id\n' +
+    '            LEFT JOIN base_sys_user_identity e ON a.id = e.userId\n' +
+    '        WHERE 1 = 1\n' +
+    '            \n' +
+    '            \n' +
+    '            \n' +
+    '      [!_.isEmpty(permsDepartmentArr) ? permsDepartmentArr : [null]]\n' +
+    '    )}\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 20 ],
+  driverError: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]
+      )}
+          GR' at line 27
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n" +
+      '    )}\n' +
+      "        GR' at line 27",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      "            concat(a.firstName, ' ', a.lastName) As name,\n" +
+      '            a.username,\n' +
+      '            a.avatar,\n' +
+      '            a.email,\n' +
+      '            a.remark,\n' +
+      '            a.createTime,\n' +
+      '            a.updateTime,\n' +
+      '            a.phone,\n' +
+      '            a.departmentId,\n' +
+      '            a.status,\n' +
+      '            a.identityStatus,\n' +
+      '            a.emailStatus,\n' +
+      '            GROUP_CONCAT(c.name) AS roleName,\n' +
+      '            d.name as departmentName\n' +
+      '        FROM\n' +
+      '            base_sys_user a\n' +
+      '            LEFT JOIN base_sys_user_role b ON a.id = b.userId\n' +
+      '            LEFT JOIN base_sys_role c ON b.roleId = c.id\n' +
+      '            LEFT JOIN base_sys_department d ON a.departmentId = d.id\n' +
+      '            LEFT JOIN base_sys_user_identity e ON a.id = e.userId\n' +
+      '        WHERE 1 = 1\n' +
+      '            \n' +
+      '            \n' +
+      '            \n' +
+      '      [!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n' +
+      '    )}\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 20,? '
+  },
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n" +
+    '    )}\n' +
+    "        GR' at line 27",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    "            concat(a.firstName, ' ', a.lastName) As name,\n" +
+    '            a.username,\n' +
+    '            a.avatar,\n' +
+    '            a.email,\n' +
+    '            a.remark,\n' +
+    '            a.createTime,\n' +
+    '            a.updateTime,\n' +
+    '            a.phone,\n' +
+    '            a.departmentId,\n' +
+    '            a.status,\n' +
+    '            a.identityStatus,\n' +
+    '            a.emailStatus,\n' +
+    '            GROUP_CONCAT(c.name) AS roleName,\n' +
+    '            d.name as departmentName\n' +
+    '        FROM\n' +
+    '            base_sys_user a\n' +
+    '            LEFT JOIN base_sys_user_role b ON a.id = b.userId\n' +
+    '            LEFT JOIN base_sys_role c ON b.roleId = c.id\n' +
+    '            LEFT JOIN base_sys_department d ON a.departmentId = d.id\n' +
+    '            LEFT JOIN base_sys_user_identity e ON a.id = e.userId\n' +
+    '        WHERE 1 = 1\n' +
+    '            \n' +
+    '            \n' +
+    '            \n' +
+    '      [!_.isEmpty(permsDepartmentArr) 0 permsDepartmentArr : [null]]\n' +
+    '    )}\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 20,? '
+}
+2023-07-13 21:43:01,729 INFO 15203 [36m [cool:core] midwayjs cool core func handler [0m
+2023-07-13 21:43:09,327 INFO 15203 [midway:static] starting static serve /public -> /Users/kurou/project/bonding-old2/server/public
+2023-07-13 21:43:11,733 INFO 15203 [36m [cool:core] location clean [0m
+2023-07-13 21:59:14,506 ERROR 15203 QueryFailedError: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_WRONG_FIELD_WITH_GROUP',
+    errno: 1055,
+    sqlState: '42000',
+    sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = 27\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_WRONG_FIELD_WITH_GROUP',
+  errno: 1055,
+  sqlState: '42000',
+  sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 21:59:15,399 ERROR 15203 TypeError: Cannot read properties of undefined (reading 'isPreview')
+    at AppNewsArticleService.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/service/app/article.ts:108:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NewsArticleController.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/controller/app/article.ts:51:20)
+    at async NewsArticleController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+2023-07-13 21:59:15,431 ERROR 15203 QueryFailedError: Unknown column 'undefined' in 'where clause'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Unknown column 'undefined' in 'where clause'
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = undefined\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 21:59:18,146 ERROR 15203 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-13 22:42:16,033 ERROR 15203 QueryFailedError: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_WRONG_FIELD_WITH_GROUP',
+    errno: 1055,
+    sqlState: '42000',
+    sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = 27\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_WRONG_FIELD_WITH_GROUP',
+  errno: 1055,
+  sqlState: '42000',
+  sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 22:42:16,562 ERROR 15203 TypeError: Cannot read properties of undefined (reading 'isPreview')
+    at AppNewsArticleService.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/service/app/article.ts:108:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NewsArticleController.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/controller/app/article.ts:51:20)
+    at async NewsArticleController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+2023-07-13 22:42:16,596 ERROR 15203 QueryFailedError: Unknown column 'undefined' in 'where clause'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Unknown column 'undefined' in 'where clause'
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = undefined\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 22:42:19,613 ERROR 15203 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/project/bonding-old2/server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-07-13 23:16:44,257 ERROR 15203 QueryFailedError: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_WRONG_FIELD_WITH_GROUP',
+    errno: 1055,
+    sqlState: '42000',
+    sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = 27\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_WRONG_FIELD_WITH_GROUP',
+  errno: 1055,
+  sqlState: '42000',
+  sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 23:16:44,610 ERROR 15203 TypeError: Cannot read properties of undefined (reading 'isPreview')
+    at AppNewsArticleService.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/service/app/article.ts:108:35)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NewsArticleController.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/controller/app/article.ts:51:20)
+    at async NewsArticleController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+2023-07-13 23:16:44,647 ERROR 15203 QueryFailedError: Unknown column 'undefined' in 'where clause'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Unknown column 'undefined' in 'where clause'
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = undefined\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 23:16:46,564 ERROR 15203 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-13 23:23:23,893 ERROR 15203 QueryFailedError: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_WRONG_FIELD_WITH_GROUP',
+    errno: 1055,
+    sqlState: '42000',
+    sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = 27\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_WRONG_FIELD_WITH_GROUP',
+  errno: 1055,
+  sqlState: '42000',
+  sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 23:23:24,211 ERROR 15203 TypeError: Cannot read properties of undefined (reading 'isPreview')
+    at AppNewsArticleService.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/service/app/article.ts:108:35)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NewsArticleController.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/controller/app/article.ts:51:20)
+    at async NewsArticleController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+2023-07-13 23:23:24,309 ERROR 15203 QueryFailedError: Unknown column 'undefined' in 'where clause'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Unknown column 'undefined' in 'where clause'
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = undefined\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 23:23:26,709 ERROR 15203 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-07-13 23:35:04,021 ERROR 15203 QueryFailedError: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_WRONG_FIELD_WITH_GROUP',
+    errno: 1055,
+    sqlState: '42000',
+    sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = 27\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_WRONG_FIELD_WITH_GROUP',
+  errno: 1055,
+  sqlState: '42000',
+  sqlMessage: "Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'bonding_server_backup.e.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = 27\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 23:35:04,311 ERROR 15203 TypeError: Cannot read properties of undefined (reading 'isPreview')
+    at AppNewsArticleService.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/service/app/article.ts:108:35)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NewsArticleController.getArticle (/Users/kurou/project/bonding-old2/server/src/modules/news/controller/app/article.ts:51:20)
+    at async NewsArticleController.Clz.<computed> (/Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+2023-07-13 23:35:04,337 ERROR 15203 QueryFailedError: Unknown column 'undefined' in 'where clause'
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding-old2/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding-old2/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding-old2/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:36:14)
+    at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12) {
+  query: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT ?,? ',
+  parameters: [ 0, 10 ],
+  driverError: Error: Unknown column 'undefined' in 'where clause'
+      at Packet.asError (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Query.execute (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/commands/command.js:29:26)
+      at PoolConnection.handlePacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/Users/kurou/project/bonding-old2/server/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:527:28)
+      at Socket.emit (node:domain:475:12)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'",
+    sql: '\n' +
+      '        SELECT\n' +
+      '            a.id,\n' +
+      '            a.content,\n' +
+      '            a.parentId,\n' +
+      '            a.createTime,\n' +
+      '\n' +
+      '            if(e.id, true, false) AS isLike,\n' +
+      '            COUNT(DISTINCT c.id) AS likes,\n' +
+      '            COUNT(DISTINCT d.id) AS comments,\n' +
+      "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+      '            b.firstName\n' +
+      '        FROM\n' +
+      '            news_comment a\n' +
+      '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+      '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+      '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+      '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+      '        WHERE 1 = 1\n' +
+      '            and a.deleteTime IS NULL\n' +
+      '            and a.articleId = undefined\n' +
+      '            and a.parentId IS NULL\n' +
+      '        GROUP BY a.id\n' +
+      '         ORDER BY `createTime` desc LIMIT 0,10 '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'undefined' in 'where clause'",
+  sql: '\n' +
+    '        SELECT\n' +
+    '            a.id,\n' +
+    '            a.content,\n' +
+    '            a.parentId,\n' +
+    '            a.createTime,\n' +
+    '\n' +
+    '            if(e.id, true, false) AS isLike,\n' +
+    '            COUNT(DISTINCT c.id) AS likes,\n' +
+    '            COUNT(DISTINCT d.id) AS comments,\n' +
+    "            concat(b.firstName, ' ', b.lastName) As author,\n" +
+    '            b.firstName\n' +
+    '        FROM\n' +
+    '            news_comment a\n' +
+    '            LEFT JOIN base_sys_user b ON a.createBy = b.id\n' +
+    '            LEFT JOIN news_comment_like c ON a.id = c.commentId\n' +
+    '            LEFT JOIN news_comment d ON a.id = d.parentId\n' +
+    '            LEFT JOIN base_sys_user e ON c.userId = 0\n' +
+    '        WHERE 1 = 1\n' +
+    '            and a.deleteTime IS NULL\n' +
+    '            and a.articleId = undefined\n' +
+    '            and a.parentId IS NULL\n' +
+    '        GROUP BY a.id\n' +
+    '         ORDER BY `createTime` desc LIMIT 0,10 '
+}
+2023-07-13 23:35:05,866 ERROR 15203 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/project/bonding-old2/server/src/modules/award/service/app/tips.ts:92:32)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/project/bonding-old2/server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/project/bonding-old2/server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/project/bonding-old2/server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}

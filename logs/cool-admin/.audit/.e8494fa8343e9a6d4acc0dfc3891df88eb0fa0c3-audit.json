@@ -1,0 +1,30 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/.audit/.e8494fa8343e9a6d4acc0dfc3891df88eb0fa0c3-audit.json",
+  "files": [
+    {
+      "date": 1688272090895,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/midway-app.log.2023-07-02",
+      "hash": "fa1dbb3be9886761e0d1c6a14b986633"
+    },
+    {
+      "date": 1688378264424,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/midway-app.log.2023-07-03",
+      "hash": "e4f012186ff30ae7e31e3f744e24c186"
+    },
+    {
+      "date": 1689249549631,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/midway-app.log.2023-07-13",
+      "hash": "567a3c5d377c3d99da47a4b58c1bbe1d"
+    },
+    {
+      "date": 1689659813697,
+      "name": "/Users/kurou/project/bonding-old2/server/logs/cool-admin/midway-app.log.2023-07-18",
+      "hash": "9dc57801a5bedff887139ab89363ecbf"
+    }
+  ],
+  "hashType": "md5"
+}

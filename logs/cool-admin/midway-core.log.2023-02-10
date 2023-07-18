@@ -1,0 +1,65 @@
+2023-02-10 14:18:01,967 ERROR 65000 CoolCommException: 該手機號碼尚未註冊
+    at BaseAppAuthService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/app/auth.ts:97:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppAuthController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/app/auth.ts:26:20)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7 {
+  status: 1001
+}
+2023-02-10 14:18:44,152 ERROR 65000 CoolCommException: 該用戶尚未進行驗證
+    at BaseSysUserService.getIdentity (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/user.ts:252:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseSysUserController.getIdentity (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/sys/user.ts:42:20)
+    at async BaseSysUserController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:48:13
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17 {
+  status: 1001
+}
+2023-02-10 14:22:40,569 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}
+2023-02-10 17:37:41,841 ERROR 65000 CoolValidateException: 手機或密碼不正確
+    at BaseAppAuthService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/app/auth.ts:94:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async AppAuthController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/app/auth.ts:26:20)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async AppAuthController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7 {
+  status: 1002
+}
+2023-02-10 17:40:21,897 ERROR 65000 CoolCommException: 今日無小知識
+    at TipAppService.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/service/app/tips.ts:92:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async TipAppController.today (/Users/kurou/template/bonding-renew/bonding-server/src/modules/award/controller/app/tips.ts:33:20)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:50:11
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:117:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/i18n/dist/middleware.js:150:17
+    at async bodyParser (/Users/kurou/template/bonding-renew/bonding-server/node_modules/koa-bodyparser/index.js:95:5) {
+  status: 1001
+}

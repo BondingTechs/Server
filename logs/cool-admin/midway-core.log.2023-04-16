@@ -1,0 +1,300 @@
+2023-04-16 12:20:26,120 INFO 2818 [36m [cool:core] midwayjs cool core func handler [0m
+2023-04-16 12:20:36,128 INFO 2818 [36m [cool:core] location clean [0m
+2023-04-16 12:21:29,987 INFO 2818 [midway:static] starting static serve /public -> /Users/kurou/project/bonding/server/public
+2023-04-16 12:26:24,350 ERROR 2818 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/project/bonding/server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/project/bonding/server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:18
+    at async /Users/kurou/project/bonding/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding/server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-04-16 12:26:30,117 ERROR 2818 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/project/bonding/server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/project/bonding/server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/project/bonding/server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/project/bonding/server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:18
+    at async /Users/kurou/project/bonding/server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/project/bonding/server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/project/bonding/server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/project/bonding/server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-04-16 12:26:50,964 ERROR 2818 QueryFailedError: read ECONNRESET
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at PoolConnection._notifyError (/Users/kurou/project/bonding/server/node_modules/mysql2/lib/connection.js:212:21)
+    at PoolConnection._handleFatalError (/Users/kurou/project/bonding/server/node_modules/mysql2/lib/connection.js:167:10)
+    at PoolConnection._handleNetworkError (/Users/kurou/project/bonding/server/node_modules/mysql2/lib/connection.js:180:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3) {
+  query: 'SELECT a.perms FROM base_sys_menu a \n' +
+    '            where 1=1 and a.perms is not NULL\n' +
+    '            ',
+  parameters: [ [ '1' ] ],
+  driverError: Error: read ECONNRESET
+      at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+    errno: -54,
+    code: 'ECONNRESET',
+    syscall: 'read',
+    fatal: true
+  },
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+2023-04-16 12:26:50,970 ERROR 2818 QueryFailedError: read ECONNRESET
+    at QueryFailedError.TypeORMError [as constructor] (/Users/kurou/project/bonding/server/node_modules/src/error/TypeORMError.ts:7:9)
+    at new QueryFailedError (/Users/kurou/project/bonding/server/node_modules/src/error/QueryFailedError.ts:9:9)
+    at Query.onResult (/Users/kurou/project/bonding/server/node_modules/typeorm/src/driver/mysql/MysqlQueryRunner.ts:196:37)
+    at PoolConnection._notifyError (/Users/kurou/project/bonding/server/node_modules/mysql2/lib/connection.js:212:21)
+    at PoolConnection._handleFatalError (/Users/kurou/project/bonding/server/node_modules/mysql2/lib/connection.js:167:10)
+    at PoolConnection._handleNetworkError (/Users/kurou/project/bonding/server/node_modules/mysql2/lib/connection.js:180:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3) {
+  query: 'SELECT `BaseSysUserEntity`.`id` AS `BaseSysUserEntity_id`, `BaseSysUserEntity`.`createTime` AS `BaseSysUserEntity_createTime`, `BaseSysUserEntity`.`updateTime` AS `BaseSysUserEntity_updateTime`, `BaseSysUserEntity`.`departmentId` AS `BaseSysUserEntity_departmentId`, `BaseSysUserEntity`.`socketId` AS `BaseSysUserEntity_socketId`, `BaseSysUserEntity`.`username` AS `BaseSysUserEntity_username`, `BaseSysUserEntity`.`password` AS `BaseSysUserEntity_password`, `BaseSysUserEntity`.`passwordV` AS `BaseSysUserEntity_passwordV`, `BaseSysUserEntity`.`avatar` AS `BaseSysUserEntity_avatar`, `BaseSysUserEntity`.`firstName` AS `BaseSysUserEntity_firstName`, `BaseSysUserEntity`.`lastName` AS `BaseSysUserEntity_lastName`, `BaseSysUserEntity`.`gender` AS `BaseSysUserEntity_gender`, `BaseSysUserEntity`.`birthday` AS `BaseSysUserEntity_birthday`, `BaseSysUserEntity`.`phone` AS `BaseSysUserEntity_phone`, `BaseSysUserEntity`.`email` AS `BaseSysUserEntity_email`, `BaseSysUserEntity`.`idCard` AS `BaseSysUserEntity_idCard`, `BaseSysUserEntity`.`identityStatus` AS `BaseSysUserEntity_identityStatus`, `BaseSysUserEntity`.`intro` AS `BaseSysUserEntity_intro`, `BaseSysUserEntity`.`remark` AS `BaseSysUserEntity_remark`, `BaseSysUserEntity`.`emailStatus` AS `BaseSysUserEntity_emailStatus`, `BaseSysUserEntity`.`status` AS `BaseSysUserEntity_status` FROM `base_sys_user` `BaseSysUserEntity` WHERE `BaseSysUserEntity`.`id` = ? LIMIT 1',
+  parameters: [ 1 ],
+  driverError: Error: read ECONNRESET
+      at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+    errno: -54,
+    code: 'ECONNRESET',
+    syscall: 'read',
+    fatal: true
+  },
+  errno: -54,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+2023-04-16 12:36:10,719 INFO 5329 [36m [cool:core] midwayjs cool core func handler [0m
+2023-04-16 12:36:20,730 INFO 5329 [36m [cool:core] location clean [0m
+2023-04-16 12:36:38,166 INFO 5329 [midway:static] starting static serve /public -> /Users/kurou/project/bonding/server/public
+2023-04-16 12:36:38,578 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:36:38,581 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,106 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,191 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,315 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,426 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,540 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,654 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,960 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:43:59,963 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:44:00,077 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:44:00,190 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:44:00,306 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:44:00,419 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:44:08,190 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:44:50,016 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:44:50,237 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:59:44,503 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:59:44,513 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:59:44,630 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:59:44,740 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:59:44,853 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:59:44,964 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}
+2023-04-16 12:59:46,798 ERROR 5329 Error: connect ECONNREFUSED 192.168.64.3:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.64.3',
+  port: 3306,
+  fatal: true
+}

@@ -1,0 +1,121 @@
+2023-02-03 22:35:49,172 INFO 41698 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-03 22:35:53,978 INFO 41698 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-03 22:35:59,180 INFO 41698 [36m [cool:core] location clean [0m
+2023-02-03 22:45:56,863 INFO 42343 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-03 22:45:57,816 INFO 42343 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-03 22:46:06,875 INFO 42343 [36m [cool:core] location clean [0m
+2023-02-03 23:40:28,992 INFO 42606 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-03 23:40:33,508 INFO 42606 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-03 23:40:38,976 INFO 42606 [36m [cool:core] location clean [0m
+2023-02-03 23:40:43,086 ERROR 42606 CoolCommException: 账户或密码不正确~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:40:50,094 ERROR 42606 CoolCommException: 账户或密码不正确~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:41:11,961 INFO 42660 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-03 23:41:21,969 INFO 42660 [36m [cool:core] location clean [0m
+2023-02-03 23:42:36,994 INFO 42714 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-03 23:42:39,495 INFO 42714 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public
+2023-02-03 23:42:39,562 ERROR 42714 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:42:47,004 INFO 42714 [36m [cool:core] location clean [0m
+2023-02-03 23:42:47,251 ERROR 42714 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:42:52,770 ERROR 42714 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:44:03,400 ERROR 42714 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:44:10,452 ERROR 42714 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:44:15,899 ERROR 42714 CoolCommException: 賬戶或密碼不正確~
+    at BaseSysLoginService.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/service/sys/login.ts:59:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BaseOpenController.login (/Users/kurou/template/bonding-renew/bonding-server/src/modules/base/controller/admin/open.ts:51:20)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async BaseOpenController.Clz.<computed> (/Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/service/aspectService.js:90:34)
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/core/dist/common/webGenerator.js:42:26
+    at async /Users/kurou/template/bonding-renew/bonding-server/node_modules/@midwayjs/info/dist/middleware/info.middleware.js:35:24
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/log.ts:23:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/app-auth.ts:121:7
+    at async /Users/kurou/template/bonding-renew/bonding-server/src/modules/base/middleware/admin-auth.ts:42:11 {
+  status: 1001
+}
+2023-02-03 23:52:57,580 INFO 43416 [36m [cool:core] midwayjs cool core func handler [0m
+2023-02-03 23:53:07,586 INFO 43416 [36m [cool:core] location clean [0m
+2023-02-03 23:53:56,751 INFO 43416 [midway:static] starting static serve /public -> /Users/kurou/template/bonding-renew/bonding-server/public

@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/kurou/project/bonding/server/logs/cool-admin/.audit/.50b0473d7fb744aa8578b70beb18d328942ce3ef-audit.json",
+  "files": [
+    {
+      "date": 1681618825630,
+      "name": "/Users/kurou/project/bonding/server/logs/cool-admin/common-error.log.2023-04-16",
+      "hash": "46b6e7baa73862a910095a7b98b954ed"
+    }
+  ],
+  "hashType": "md5"
+}
