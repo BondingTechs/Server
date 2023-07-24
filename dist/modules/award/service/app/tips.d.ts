@@ -43,7 +43,7 @@ export declare class TipAppService extends BaseService {
      *
      */
     today(): Promise<AwardTipsEntity>;
-    todayFormat(): Promise<string>;
+    formatDateInGMT8(date: any): Promise<string>;
     collection({ id }: {
         id: any;
     }): Promise<{

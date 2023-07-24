@@ -5,5 +5,4 @@ import { BaseEventEntity } from '../../../../base/entity/baseEvent';
 export declare class BaseUserIdentityEntity extends BaseEventEntity {
     userId: number;
     positiveId: number;
-    negativeId: number;
 }

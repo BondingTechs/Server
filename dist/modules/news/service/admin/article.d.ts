@@ -2,8 +2,8 @@ import { BaseService } from '@cool-midway/core';
 import { Repository } from 'typeorm';
 import { NewsArticleEntity } from '../../entity/article';
 import { NewsArticleCategoryEntity } from '../../entity/articleCategory';
-import { NewsArticleViewEntity } from '../../entity/articleView';
 import { NewsArticleLikeEntity } from '../../entity/articleLike';
+import { NewsArticleViewEntity } from '../../entity/articleView';
 import { NewsArticleCommentEntity } from '../../entity/comment';
 import { NewsArticleCommentLikeEntity } from '../../entity/commentLike';
 /**

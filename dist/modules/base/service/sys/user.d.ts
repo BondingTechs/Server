@@ -73,6 +73,5 @@ export declare class BaseSysUserService extends BaseService {
     forbidden(userId: any): Promise<void>;
     getIdentity(userId: number): Promise<{
         positive: string;
-        negative: string;
     }>;
 }
