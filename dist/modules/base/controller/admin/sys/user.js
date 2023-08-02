@@ -61,7 +61,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], BaseSysUserController.prototype, "getIdentity", null);
 __decorate([
-    (0, decorator_1.Post)('/identityAgree', { summary: '查看身份驗證' }),
+    (0, decorator_1.Post)('/identityAgree', { summary: '同意身份驗證' }),
     __param(0, (0, decorator_1.Body)('userId')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
