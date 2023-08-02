@@ -1,13 +1,13 @@
 import { BaseService } from '@cool-midway/core';
 import { Repository } from 'typeorm';
 import { NewsArticleEntity } from '../../entity/article';
-import { NewsArticleCommentEntity } from '../../entity/comment';
-import { NewsArticleLikeEntity } from '../../entity/articleLike';
-import { NewsArticleViewEntity } from '../../entity/articleView';
 import { CacheManager } from '@midwayjs/cache';
 import { BaseSysUserEntity } from '../../../base/entity/sys/user';
 import { NewsArticleCategoryEntity } from '../../entity/articleCategory';
 import { NewsArticleCollectionEntity } from '../../entity/articleCollection';
+import { NewsArticleLikeEntity } from '../../entity/articleLike';
+import { NewsArticleViewEntity } from '../../entity/articleView';
+import { NewsArticleCommentEntity } from '../../entity/comment';
 /**
  * 描述
  */

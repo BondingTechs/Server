@@ -41,6 +41,7 @@ export declare class BaseApiUserService extends BaseService {
         email: string;
         idCard: string;
         identityStatus: number;
+        rejectReason: string;
         intro: string;
         remark: string;
         emailStatus: number;
@@ -82,7 +83,8 @@ export declare class BaseApiUserService extends BaseService {
     /**
      * 更換手機
      */
-    changePhone({ phone, verifyCode }: {
+    changePhone({ area, phone, verifyCode }: {
+        area: any;
         phone: any;
         verifyCode: any;
     }): Promise<{

@@ -1,10 +1,10 @@
 import { BaseController } from '@cool-midway/core';
+import { CoolFile } from '@cool-midway/file';
+import { Context } from '@midwayjs/koa';
 import { BaseSysUserEntity } from '../../entity/sys/user';
 import { BaseSysLoginService } from '../../service/sys/login';
 import { BaseSysPermsService } from '../../service/sys/perms';
 import { BaseSysUserService } from '../../service/sys/user';
-import { Context } from '@midwayjs/koa';
-import { CoolFile } from '@cool-midway/file';
 /**
  * Base 通用接口 一般写不需要权限过滤的接口
  */

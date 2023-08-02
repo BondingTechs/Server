@@ -10,22 +10,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ContainerLifeCycle = void 0;
-const decorator_1 = require("@midwayjs/decorator");
-const koa = require("@midwayjs/koa");
-const validate = require("@midwayjs/validate");
-const info = require("@midwayjs/info");
-const path_1 = require("path");
-const staticFile = require("@midwayjs/static-file");
-const view = require("@midwayjs/view-ejs");
-const orm = require("@midwayjs/orm");
 const cool = require("@cool-midway/core");
 const file = require("@cool-midway/file");
+const decorator_1 = require("@midwayjs/decorator");
+const info = require("@midwayjs/info");
+const koa = require("@midwayjs/koa");
+const orm = require("@midwayjs/orm");
+const staticFile = require("@midwayjs/static-file");
 const localTask = require("@midwayjs/task");
+const validate = require("@midwayjs/validate");
+const view = require("@midwayjs/view-ejs");
+const path_1 = require("path");
 // import * as socketio from '@midwayjs/socketio';
 // import * as task from '@cool-midway/task';
 // import * as pay from '@cool-midway/pay';
 // import * as es from '@cool-midway/es';
 // import * as rpc from '@cool-midway/rpc';
+const task = require("@midwayjs/task"); // 导入模块
 let ContainerLifeCycle = class ContainerLifeCycle {
     async onReady() { }
 };
@@ -55,7 +56,7 @@ ContainerLifeCycle = __decorate([
             // 文件上传 阿里云存储 腾讯云存储 七牛云存储
             file,
             // 任务与队列
-            // task,
+            task,
             // 支付 微信与支付宝
             // pay,
             // elasticsearch
@@ -71,4 +72,4 @@ ContainerLifeCycle = __decorate([
     })
 ], ContainerLifeCycle);
 exports.ContainerLifeCycle = ContainerLifeCycle;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZmlndXJhdGlvbi5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMva3Vyb3UvcHJvamVjdC9ib25kaW5nLW9sZDIvc2VydmVyL3NyYy8iLCJzb3VyY2VzIjpbImNvbmZpZ3VyYXRpb24udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEsbURBQXlEO0FBQ3pELHFDQUFxQztBQUNyQywrQ0FBK0M7QUFDL0MsdUNBQXVDO0FBQ3ZDLCtCQUE0QjtBQUM1QixvREFBb0Q7QUFDcEQsMkNBQTJDO0FBQzNDLHFDQUFxQztBQUNyQywwQ0FBMEM7QUFDMUMsMENBQTBDO0FBQzFDLDRDQUE0QztBQUM1QyxrREFBa0Q7QUFDbEQsNkNBQTZDO0FBQzdDLDJDQUEyQztBQUMzQyx5Q0FBeUM7QUFDekMsMkNBQTJDO0FBcUMzQyxJQUFhLGtCQUFrQixHQUEvQixNQUFhLGtCQUFrQjtJQUk3QixLQUFLLENBQUMsT0FBTyxLQUFJLENBQUM7Q0FDbkIsQ0FBQTtBQUhDO0lBREMsSUFBQSxlQUFHLEdBQUU7OytDQUNlO0FBRlYsa0JBQWtCO0lBbkM5QixJQUFBLHlCQUFhLEVBQUM7UUFDYixPQUFPLEVBQUU7WUFDUCxtQkFBbUI7WUFDbkIsR0FBRztZQUNILG9EQUFvRDtZQUNwRCxRQUFRO1lBQ1IsZ0RBQWdEO1lBQ2hELFNBQVM7WUFDVCxrREFBa0Q7WUFDbEQsSUFBSTtZQUNKLHlEQUF5RDtZQUN6RCxVQUFVO1lBQ1Ysa0VBQWtFO1lBQ2xFLEdBQUc7WUFDSCw0REFBNEQ7WUFDNUQsWUFBWTtZQUNaLDBDQUEwQztZQUMxQyxJQUFJO1lBQ0oseUJBQXlCO1lBQ3pCLElBQUk7WUFDSixRQUFRO1lBQ1IsUUFBUTtZQUNSLFlBQVk7WUFDWixPQUFPO1lBQ1AsZ0JBQWdCO1lBQ2hCLE1BQU07WUFDTixlQUFlO1lBQ2YsT0FBTztZQUNQO2dCQUNFLFNBQVMsRUFBRSxJQUFJO2dCQUNmLGtCQUFrQixFQUFFLENBQUMsT0FBTyxDQUFDO2FBQzlCO1NBQ0Y7UUFDRCxhQUFhLEVBQUUsQ0FBQyxJQUFBLFdBQUksRUFBQyxTQUFTLEVBQUUsVUFBVSxDQUFDLENBQUM7S0FDN0MsQ0FBQztHQUNXLGtCQUFrQixDQUs5QjtBQUxZLGdEQUFrQiJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uZmlndXJhdGlvbi5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMva3Vyb3UvcHJvamVjdC9ib25kaW5nLW9sZDIvc2VydmVyL3NyYy8iLCJzb3VyY2VzIjpbImNvbmZpZ3VyYXRpb24udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEsMENBQTBDO0FBQzFDLDBDQUEwQztBQUMxQyxtREFBeUQ7QUFDekQsdUNBQXVDO0FBQ3ZDLHFDQUFxQztBQUNyQyxxQ0FBcUM7QUFDckMsb0RBQW9EO0FBQ3BELDRDQUE0QztBQUM1QywrQ0FBK0M7QUFDL0MsMkNBQTJDO0FBQzNDLCtCQUE0QjtBQUM1QixrREFBa0Q7QUFDbEQsNkNBQTZDO0FBQzdDLDJDQUEyQztBQUMzQyx5Q0FBeUM7QUFDekMsMkNBQTJDO0FBQzNDLHVDQUF1QyxDQUFDLE9BQU87QUFxQy9DLElBQWEsa0JBQWtCLEdBQS9CLE1BQWEsa0JBQWtCO0lBSTdCLEtBQUssQ0FBQyxPQUFPLEtBQUssQ0FBQztDQUNwQixDQUFBO0FBSEM7SUFEQyxJQUFBLGVBQUcsR0FBRTs7K0NBQ2U7QUFGVixrQkFBa0I7SUFuQzlCLElBQUEseUJBQWEsRUFBQztRQUNiLE9BQU8sRUFBRTtZQUNQLG1CQUFtQjtZQUNuQixHQUFHO1lBQ0gsb0RBQW9EO1lBQ3BELFFBQVE7WUFDUixnREFBZ0Q7WUFDaEQsU0FBUztZQUNULGtEQUFrRDtZQUNsRCxJQUFJO1lBQ0oseURBQXlEO1lBQ3pELFVBQVU7WUFDVixrRUFBa0U7WUFDbEUsR0FBRztZQUNILDREQUE0RDtZQUM1RCxZQUFZO1lBQ1osMENBQTBDO1lBQzFDLElBQUk7WUFDSix5QkFBeUI7WUFDekIsSUFBSTtZQUNKLFFBQVE7WUFDUixJQUFJO1lBQ0osWUFBWTtZQUNaLE9BQU87WUFDUCxnQkFBZ0I7WUFDaEIsTUFBTTtZQUNOLGVBQWU7WUFDZixPQUFPO1lBQ1A7Z0JBQ0UsU0FBUyxFQUFFLElBQUk7Z0JBQ2Ysa0JBQWtCLEVBQUUsQ0FBQyxPQUFPLENBQUM7YUFDOUI7U0FDRjtRQUNELGFBQWEsRUFBRSxDQUFDLElBQUEsV0FBSSxFQUFDLFNBQVMsRUFBRSxVQUFVLENBQUMsQ0FBQztLQUM3QyxDQUFDO0dBQ1csa0JBQWtCLENBSzlCO0FBTFksZ0RBQWtCIn0=

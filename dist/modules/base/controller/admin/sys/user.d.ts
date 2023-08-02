@@ -19,4 +19,11 @@ export declare class BaseSysUserController extends BaseController {
         code: import("@cool-midway/core").RESCODE;
         message: import("@cool-midway/core").RESMESSAGE;
     }>;
+    /**
+     * 身份驗證通過
+     */
+    identityAgree(userId: number): Promise<{
+        code: import("@cool-midway/core").RESCODE;
+        message: import("@cool-midway/core").RESMESSAGE;
+    }>;
 }

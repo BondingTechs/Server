@@ -18,6 +18,7 @@ export declare class BaseSysUserEntity extends BaseEntity {
     email: string;
     idCard: string;
     identityStatus: number;
+    rejectReason: string;
     intro: string;
     remark: string;
     emailStatus: number;

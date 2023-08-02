@@ -60,6 +60,7 @@ export declare class AdminNewsArticleService extends BaseService {
         createTime: Date;
         updateTime: Date;
     }>;
+    watchArticleStatus(): Promise<void>;
     /**
      * 更新分類关系
      * @param user

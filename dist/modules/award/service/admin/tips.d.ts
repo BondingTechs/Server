@@ -10,11 +10,16 @@ export declare class AdminAwardTipsService extends BaseService {
     awardTipsCategoryEntity: Repository<AwardTipsCategoryEntity>;
     ctx: any;
     add(param: any): Promise<any>;
+    tipStatus(publishDate: any): 6 | 7 | 25;
+    watchArticleStatus(): Promise<void>;
     update(param: any): Promise<any>;
     info(id: any): Promise<{
         categories: any;
         title: string;
         thumbnail: string;
+        /**
+         * 描述
+         */
         content: string;
         publishDate: String;
         status: number;

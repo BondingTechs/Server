@@ -74,4 +74,5 @@ export declare class BaseSysUserService extends BaseService {
     getIdentity(userId: number): Promise<{
         positive: string;
     }>;
+    identityAgree(userId: number): Promise<boolean>;
 }

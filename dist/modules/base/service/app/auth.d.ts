@@ -57,6 +57,7 @@ export declare class BaseAppAuthService extends BaseService {
         email: string;
         idCard: string;
         identityStatus: number;
+        rejectReason: string;
         intro: string;
         remark: string;
         emailStatus: number;

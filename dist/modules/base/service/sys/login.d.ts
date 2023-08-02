@@ -1,12 +1,12 @@
 import { BaseService } from '@cool-midway/core';
+import { CacheManager } from '@midwayjs/cache';
+import { Context } from '@midwayjs/koa';
+import { Repository } from 'typeorm';
 import { LoginDTO } from '../../dto/login';
 import { BaseSysUserEntity } from '../../entity/sys/user';
-import { Repository } from 'typeorm';
-import { BaseSysRoleService } from './role';
-import { BaseSysMenuService } from './menu';
 import { BaseSysDepartmentService } from './department';
-import { Context } from '@midwayjs/koa';
-import { CacheManager } from '@midwayjs/cache';
+import { BaseSysMenuService } from './menu';
+import { BaseSysRoleService } from './role';
 /**
  * 登錄
  */

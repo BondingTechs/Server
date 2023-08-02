@@ -1,7 +1,7 @@
 import { BaseService } from '@cool-midway/core';
 import { Repository } from 'typeorm';
-import { NewsArticleCommentEntity } from '../../entity/comment';
 import { NewsArticleEntity } from '../../entity/article';
+import { NewsArticleCommentEntity } from '../../entity/comment';
 import { NewsArticleCommentLikeEntity } from '../../entity/commentLike';
 import { BaseSysUserEntity } from '../../../base/entity/sys/user';
 /**
