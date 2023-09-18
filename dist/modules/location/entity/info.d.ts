@@ -10,4 +10,5 @@ export declare class IPInfoEntity extends BaseEntity {
     latitude: string;
     longitude: string;
     timezone: string;
+    userId: number;
 }

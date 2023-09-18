@@ -1,5 +1,5 @@
 import { BaseService } from '@cool-midway/core';
-import { Context } from '@midwayjs/socketio';
+import { Context } from 'koa';
 import { Repository } from 'typeorm';
 import { IPInfoEntity } from '../../entity/info';
 /**

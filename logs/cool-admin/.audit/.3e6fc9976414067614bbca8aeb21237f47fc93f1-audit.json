@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "/Users/kurou/project/bonding-git/server/logs/cool-admin/.audit/.3e6fc9976414067614bbca8aeb21237f47fc93f1-audit.json",
+  "files": [
+    {
+      "date": 1693914260493,
+      "name": "/Users/kurou/project/bonding-git/server/logs/cool-admin/common-error.log.2023-09-05",
+      "hash": "9d2ef4ac2de152f3e74c48c51dec932c"
+    }
+  ],
+  "hashType": "md5"
+}
